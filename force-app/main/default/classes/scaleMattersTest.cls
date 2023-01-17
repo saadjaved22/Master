@@ -215,7 +215,7 @@ public class scaleMattersTest {
         oppUpdate.scaleMatters__IsCertifiedDeal__c = false;
         update oppUpdate;
         oppListNew.add(oppUpdate.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap, oppListNew);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap, oppListNew);
         
         //testing if stages are 3 and 4
         
@@ -249,7 +249,7 @@ public class scaleMattersTest {
         oppUpdate2.scaleMatters__IsCertifiedDeal__c = false;
         update oppUpdate2;
         oppListNew2.add(oppUpdate2.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap2, oppListNew2);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap2, oppListNew2);
         
         //testing if stages are 5 and 6
         
@@ -269,7 +269,7 @@ public class scaleMattersTest {
         oppUpdate3.scaleMatters__Opportunity_Discard__c = true;
         update oppUpdate3;
         oppListNew3.add(oppUpdate3.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap3, oppListNew3);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap3, oppListNew3);
         
         //testing if stages are 7 and 8
         Opportunity opp4 = new Opportunity();
@@ -288,7 +288,7 @@ public class scaleMattersTest {
         oppUpdate4.scaleMatters__Opportunity_Discard__c = true;
         update oppUpdate4;
         oppListNew4.add(oppUpdate4.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap4, oppListNew4);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap4, oppListNew4);
         
         //testing if stages are 9 and 10 (Won and Lost)
         Opportunity opp5 = new Opportunity();
@@ -307,7 +307,7 @@ public class scaleMattersTest {
         oppUpdate5.scaleMatters__Opportunity_Discard__c = true;
         update oppUpdate5;
         oppListNew5.add(oppUpdate5.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap5, oppListNew5);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap5, oppListNew5);
         
          
     }
@@ -386,7 +386,7 @@ public class scaleMattersTest {
         oppUpdate.scaleMatters__IsCertifiedDeal__c = false;
         update oppUpdate;
         oppListNew.add(oppUpdate.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap, oppListNew);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap, oppListNew);
         
         //testing if stages are 3 and 4
         
@@ -420,7 +420,7 @@ public class scaleMattersTest {
         oppUpdate2.scaleMatters__IsCertifiedDeal__c = false;
         update oppUpdate2;
         oppListNew2.add(oppUpdate2.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap2, oppListNew2);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap2, oppListNew2);
         
         //testing if stages are 5 and 6
         
@@ -440,7 +440,7 @@ public class scaleMattersTest {
         oppUpdate3.scaleMatters__Opportunity_Discard__c = true;
         update oppUpdate3;
         oppListNew3.add(oppUpdate3.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap3, oppListNew3);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap3, oppListNew3);
         
         //testing if stages are 7 and 8
         Opportunity opp4 = new Opportunity();
@@ -459,7 +459,7 @@ public class scaleMattersTest {
         oppUpdate4.scaleMatters__Opportunity_Discard__c = true;
         update oppUpdate4;
         oppListNew4.add(oppUpdate4.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap4, oppListNew4);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap4, oppListNew4);
         
         //testing if stages are 9 and 10 (Won and Lost)
         Opportunity opp5 = new Opportunity();
@@ -478,7 +478,7 @@ public class scaleMattersTest {
         oppUpdate5.scaleMatters__Opportunity_Discard__c = true;
         update oppUpdate5;
         oppListNew5.add(oppUpdate5.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap5, oppListNew5);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap5, oppListNew5);
         
          
     }
@@ -557,7 +557,7 @@ public class scaleMattersTest {
         oppUpdate.scaleMatters__IsCertifiedDeal__c = false;
         update oppUpdate;
         oppListNew.add(oppUpdate.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap, oppListNew);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap, oppListNew);
         
         //testing if stages are 3 and 4
         
@@ -591,7 +591,7 @@ public class scaleMattersTest {
         oppUpdate2.scaleMatters__IsCertifiedDeal__c = false;
         update oppUpdate2;
         oppListNew2.add(oppUpdate2.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap2, oppListNew2);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap2, oppListNew2);
         
         //testing if stages are 5 and 6
         
@@ -611,7 +611,7 @@ public class scaleMattersTest {
         oppUpdate3.scaleMatters__Opportunity_Discard__c = true;
         update oppUpdate3;
         oppListNew3.add(oppUpdate3.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap3, oppListNew3);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap3, oppListNew3);
         
         //testing if stages are 7 and 8
         Opportunity opp4 = new Opportunity();
@@ -630,7 +630,7 @@ public class scaleMattersTest {
         oppUpdate4.scaleMatters__Opportunity_Discard__c = true;
         update oppUpdate4;
         oppListNew4.add(oppUpdate4.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap4, oppListNew4);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap4, oppListNew4);
         
         //testing if stages are 9 and 10 (Won and Lost)
         Opportunity opp5 = new Opportunity();
@@ -649,7 +649,7 @@ public class scaleMattersTest {
         oppUpdate5.scaleMatters__Opportunity_Discard__c = true;
         update oppUpdate5;
         oppListNew5.add(oppUpdate5.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap5, oppListNew5);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap5, oppListNew5);
         
          
     }
@@ -700,7 +700,7 @@ public class scaleMattersTest {
         oppListNew.add(opp.Id);
 
         
-        OpportunityBatchUpdate.insertOppStage(oppListNew);
+        ScaleMattersOpportunityBatch.insertOppStage(oppListNew);
         
         //testing if stages are 3 and 4
         
@@ -715,7 +715,7 @@ public class scaleMattersTest {
         opp2.scaleMatters__Business_Unit__c = 'Unassigned';
         insert opp2;
         oppListNew2.add(opp2.Id);        
-        OpportunityBatchUpdate.insertOppStage(oppListNew2);
+        ScaleMattersOpportunityBatch.insertOppStage(oppListNew2);
         
         //testing if stages are 5 and 6
         
@@ -728,7 +728,7 @@ public class scaleMattersTest {
         opp3.scaleMatters__Business_Unit__c = 'Unassigned';
         insert opp3;
         oppListNew3.add(opp3.Id);        
-        OpportunityBatchUpdate.InsertOppStage(oppListNew3);
+        ScaleMattersOpportunityBatch.InsertOppStage(oppListNew3);
         
         //testing if stages are 7 and 8
         Opportunity opp4 = new Opportunity();
@@ -741,7 +741,7 @@ public class scaleMattersTest {
         opp4.scaleMatters__Business_Unit__c = 'Unassigned';
         insert opp4;
         oppListNew4.add(opp4.Id);        
-        OpportunityBatchUpdate.InsertOppStage(oppListNew4);
+        ScaleMattersOpportunityBatch.InsertOppStage(oppListNew4);
         
         //testing if stages are 9 and 10 (Won and Lost)
         Opportunity opp5 = new Opportunity();
@@ -753,7 +753,7 @@ public class scaleMattersTest {
         opp5.Amount = 1200;
         insert opp5;
         oppListNew5.add(opp5.Id);        
-        OpportunityBatchUpdate.insertOppStage(oppListNew5);
+        ScaleMattersOpportunityBatch.insertOppStage(oppListNew5);
         
          
     }
@@ -833,7 +833,7 @@ public class scaleMattersTest {
         oppUpdate.scaleMatters__IsCertifiedDeal__c = false;
         update oppUpdate;
         oppListNew.add(oppUpdate.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap, oppListNew);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap, oppListNew);
         
         //testing if stages are 3 and 4
         
@@ -867,7 +867,7 @@ public class scaleMattersTest {
         oppUpdate2.scaleMatters__IsCertifiedDeal__c = false;
         update oppUpdate2;
         oppListNew2.add(oppUpdate2.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap2, oppListNew2);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap2, oppListNew2);
         
         //testing if stages are 5 and 6
         
@@ -887,7 +887,7 @@ public class scaleMattersTest {
         oppUpdate3.scaleMatters__Opportunity_Discard__c = true;
         update oppUpdate3;
         oppListNew3.add(oppUpdate3.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap3, oppListNew3);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap3, oppListNew3);
         
         
         
@@ -968,7 +968,7 @@ public class scaleMattersTest {
         oppUpdate.scaleMatters__IsCertifiedDeal__c = false;
         update oppUpdate;
         oppListNew.add(oppUpdate.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap, oppListNew);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap, oppListNew);
         
         //testing if stages are 3 and 4
         
@@ -1002,7 +1002,7 @@ public class scaleMattersTest {
         oppUpdate2.scaleMatters__IsCertifiedDeal__c = false;
         update oppUpdate2;
         oppListNew2.add(oppUpdate2.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap2, oppListNew2);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap2, oppListNew2);
         
         //testing if stages are 5 and 6
         
@@ -1022,7 +1022,7 @@ public class scaleMattersTest {
         oppUpdate3.scaleMatters__Opportunity_Discard__c = true;
         update oppUpdate3;
         oppListNew3.add(oppUpdate3.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap3, oppListNew3);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap3, oppListNew3);
         
         
         
@@ -1102,7 +1102,7 @@ public class scaleMattersTest {
         oppUpdate.scaleMatters__IsCertifiedDeal__c = false;
         update oppUpdate;
         oppListNew.add(oppUpdate.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap, oppListNew);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap, oppListNew);
         
         //testing if stages are 3 and 4
         
@@ -1136,7 +1136,7 @@ public class scaleMattersTest {
         oppUpdate2.scaleMatters__IsCertifiedDeal__c = false;
         update oppUpdate2;
         oppListNew2.add(oppUpdate2.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap2, oppListNew2);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap2, oppListNew2);
         
         //testing if stages are 5 and 6
         
@@ -1156,7 +1156,7 @@ public class scaleMattersTest {
         oppUpdate3.scaleMatters__Opportunity_Discard__c = true;
         update oppUpdate3;
         oppListNew3.add(oppUpdate3.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap3, oppListNew3);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap3, oppListNew3);
         
         //testing if stages are 7 and 8
         Opportunity opp4 = new Opportunity();
@@ -1175,7 +1175,7 @@ public class scaleMattersTest {
         oppUpdate4.scaleMatters__Opportunity_Discard__c = true;
         update oppUpdate4;
         oppListNew4.add(oppUpdate4.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap4, oppListNew4);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap4, oppListNew4);
         
         //testing if stages are 9 and 10 (Won and Lost)
         Opportunity opp5 = new Opportunity();
@@ -1194,7 +1194,7 @@ public class scaleMattersTest {
         oppUpdate5.scaleMatters__Opportunity_Discard__c = true;
         update oppUpdate5;
         oppListNew5.add(oppUpdate5.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap5, oppListNew5);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap5, oppListNew5);
         
          
     }
@@ -1273,7 +1273,7 @@ public class scaleMattersTest {
         oppUpdate.scaleMatters__IsCertifiedDeal__c = false;
         update oppUpdate;
         oppListNew.add(oppUpdate.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap, oppListNew);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap, oppListNew);
         
         //testing if stages are 3 and 4
         
@@ -1307,7 +1307,7 @@ public class scaleMattersTest {
         oppUpdate2.scaleMatters__IsCertifiedDeal__c = false;
         update oppUpdate2;
         oppListNew2.add(oppUpdate2.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap2, oppListNew2);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap2, oppListNew2);
         
         //testing if stages are 5 and 6
         
@@ -1327,7 +1327,7 @@ public class scaleMattersTest {
         oppUpdate3.scaleMatters__Opportunity_Discard__c = true;
         update oppUpdate3;
         oppListNew3.add(oppUpdate3.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap3, oppListNew3);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap3, oppListNew3);
         
         //testing if stages are 7 and 8
         Opportunity opp4 = new Opportunity();
@@ -1418,7 +1418,7 @@ public class scaleMattersTest {
         oppUpdate.scaleMatters__IsCertifiedDeal__c = false;
         update oppUpdate;
         oppListNew.add(oppUpdate.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap, oppListNew);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap, oppListNew);
         
         //testing if stages are 3 and 4
         
@@ -1452,7 +1452,7 @@ public class scaleMattersTest {
         oppUpdate2.scaleMatters__IsCertifiedDeal__c = false;
         update oppUpdate2;
         oppListNew2.add(oppUpdate2.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap2, oppListNew2);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap2, oppListNew2);
         
         //testing if stages are 5 and 6
         
@@ -1472,11 +1472,285 @@ public class scaleMattersTest {
         oppUpdate3.scaleMatters__Opportunity_Discard__c = true;
         update oppUpdate3;
         oppListNew3.add(oppUpdate3.Id);        
-        OpportunityBatchUpdate.updateOppStage(oppStagesMap3, oppListNew3);
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap3, oppListNew3);
         
         
          
     }
+    
+    @isTest static void TestOpportunity11(){
+        
+        Map<ID, String> oppStagesMap = new Map<ID, String>();
+        List<ID> oppListNew = new List<ID>();
+        
+        List<ID> oppListNew2 = new List<ID>();
+        Map<ID, String> oppStagesMap2 = new Map<ID, String>();
+        
+        List<ID> oppListNew3 = new List<ID>();
+        Map<ID, String> oppStagesMap3 = new Map<ID, String>();
+		
+        List<ID> oppListNew4 = new List<ID>();
+        Map<ID, String> oppStagesMap4 = new Map<ID, String>();
+		
+        List<ID> oppListNew5 = new List<ID>();
+        Map<ID, String> oppStagesMap5 = new Map<ID, String>();
+
+        List<ID> oppListNew6 = new List<ID>();
+        Map<ID, String> oppStagesMap6 = new Map<ID, String>();
+
+        List<ID> oppListNew7 = new List<ID>();
+        Map<ID, String> oppStagesMap7 = new Map<ID, String>();
+
+        List<ID> oppListNew8 = new List<ID>();
+        Map<ID, String> oppStagesMap8 = new Map<ID, String>();
+
+        List<ID> oppListNew9 = new List<ID>();
+        Map<ID, String> oppStagesMap9 = new Map<ID, String>();
+        
+        List<ID> oppListNew10 = new List<ID>();
+        Map<ID, String> oppStagesMap10 = new Map<ID, String>();
+        
+        List<ID> oppListNew11 = new List<ID>();
+        Map<ID, String> oppStagesMap11 = new Map<ID, String>();
+
+
+
+        
+        Account acc = new Account();
+        acc.Name = 'Test Account';
+        insert acc;
+        
+        //testing if stages are 1 and 2
+        
+        Opportunity opp = new Opportunity();
+        opp.Name = 'Test Opportunity';
+        opp.StageName = 'Stage 8';
+        opp.CloseDate = system.today();
+        opp.AccountId = acc.id;
+        opp.Amount = 1200;
+        opp.scaleMatters__Business_Unit__c = 'Unassigned';
+        opp.scaleMatters__S2_Date__c = Null;
+
+        insert opp;
+        oppStagesMap.put(opp.Id, opp.StageName);
+
+        
+        Opportunity oppUpdate = new Opportunity(Id= opp.Id);
+        oppUpdate.Name = 'Test';
+        oppUpdate.StageName = 'Stage 7';
+        oppUpdate.scaleMatters__S2_Date__c = system.today();
+        oppUpdate.scaleMatters__S3_Date__c = system.today();
+        oppUpdate.scaleMatters__S4_Date__c = system.today();
+        oppUpdate.scaleMatters__S5_Date__c = system.today();
+        oppUpdate.scaleMatters__S6_Date__c = system.today();
+        oppUpdate.scaleMatters__S7_Date__c = system.today();
+        oppUpdate.scaleMatters__S8_Date__c = system.today();
+        oppUpdate.scaleMatters__S9_Date__c = system.today();
+        oppUpdate.scaleMatters__S10_Date__c = system.today();
+        oppUpdate.scaleMatters__Last_Stage_Before_Loss__c = 3;
+        oppUpdate.scaleMatters__IsGhosted__c = false;
+        oppUpdate.scaleMatters__IsCertifiedDeal__c = false;
+        update oppUpdate;
+        oppListNew.add(oppUpdate.Id);        
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap, oppListNew);
+        
+        //testing if stages are 3 and 4
+        
+        
+        
+        Opportunity opp2 = new Opportunity();
+        opp2.Name = 'Test Opportunity';
+        opp2.StageName = 'Closed Lost';
+        opp2.CloseDate = system.today();
+        opp2.Amount = 1200;
+        opp2.AccountId = acc.id;
+        opp2.scaleMatters__Business_Unit__c = 'Unassigned';
+        insert opp2;
+        oppStagesMap2.put(opp2.Id, opp2.StageName);
+        
+        Opportunity oppUpdate2 = new Opportunity(Id= opp2.Id);
+        oppUpdate2.Name = 'Test';
+        oppUpdate2.StageName = 'Stage 8';
+        oppUpdate2.scaleMatters__Opportunity_Discard__c = true;
+        oppUpdate2.scaleMatters__S2_Date__c = system.today();
+        oppUpdate2.scaleMatters__S3_Date__c = system.today();
+        oppUpdate2.scaleMatters__S4_Date__c = system.today();
+        oppUpdate2.scaleMatters__S5_Date__c = system.today();
+        oppUpdate2.scaleMatters__S6_Date__c = system.today();
+        oppUpdate2.scaleMatters__S7_Date__c = system.today();
+        oppUpdate2.scaleMatters__S8_Date__c = system.today();
+        oppUpdate2.scaleMatters__S9_Date__c = system.today();
+        oppUpdate2.scaleMatters__S10_Date__c = system.today();
+        oppUpdate2.scaleMatters__Last_Stage_Before_Loss__c = 3;
+        oppUpdate2.scaleMatters__IsGhosted__c = false;
+        oppUpdate2.scaleMatters__IsCertifiedDeal__c = false;
+        update oppUpdate2;
+        oppListNew2.add(oppUpdate2.Id);        
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap2, oppListNew2);
+        
+        //testing if stages are 5 and 6
+        
+        Opportunity opp3 = new Opportunity();
+        opp3.Name = 'Test Opportunity';
+        opp3.StageName = 'Closed Booked';
+        opp3.CloseDate = system.today();
+        opp3.AccountId = acc.id;
+        opp3.Amount = 1200;
+        opp3.scaleMatters__Business_Unit__c = 'Unassigned';
+        insert opp3;
+        oppStagesMap3.put(opp3.Id, opp3.StageName);
+        
+        Opportunity oppUpdate3 = new Opportunity(Id= opp3.Id);
+        oppUpdate3.Name = 'Test';
+        oppUpdate3.StageName = 'Closed Won';
+        oppUpdate3.scaleMatters__Opportunity_Discard__c = true;
+        update oppUpdate3;
+        oppListNew3.add(oppUpdate3.Id);        
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap3, oppListNew3);
+         
+         
+        
+        
+         
+    }
+    
+    @isTest static void TestOpportunity12(){
+        
+        Map<ID, String> oppStagesMap = new Map<ID, String>();
+        List<ID> oppListNew = new List<ID>();
+        
+        List<ID> oppListNew2 = new List<ID>();
+        Map<ID, String> oppStagesMap2 = new Map<ID, String>();
+        
+        List<ID> oppListNew3 = new List<ID>();
+        Map<ID, String> oppStagesMap3 = new Map<ID, String>();
+		
+        List<ID> oppListNew4 = new List<ID>();
+        Map<ID, String> oppStagesMap4 = new Map<ID, String>();
+		
+        List<ID> oppListNew5 = new List<ID>();
+        Map<ID, String> oppStagesMap5 = new Map<ID, String>();
+
+        List<ID> oppListNew6 = new List<ID>();
+        Map<ID, String> oppStagesMap6 = new Map<ID, String>();
+
+        List<ID> oppListNew7 = new List<ID>();
+        Map<ID, String> oppStagesMap7 = new Map<ID, String>();
+
+        List<ID> oppListNew8 = new List<ID>();
+        Map<ID, String> oppStagesMap8 = new Map<ID, String>();
+
+        List<ID> oppListNew9 = new List<ID>();
+        Map<ID, String> oppStagesMap9 = new Map<ID, String>();
+        
+        List<ID> oppListNew10 = new List<ID>();
+        Map<ID, String> oppStagesMap10 = new Map<ID, String>();
+        
+        List<ID> oppListNew11 = new List<ID>();
+        Map<ID, String> oppStagesMap11 = new Map<ID, String>();
+
+
+
+        
+        Account acc = new Account();
+        acc.Name = 'Test Account';
+        insert acc;
+        
+        //testing if stages are 1 and 2
+        
+        Opportunity opp = new Opportunity();
+        opp.Name = 'Test Opportunity';
+        opp.StageName = 'Closed Ghosted';
+        opp.CloseDate = system.today();
+        opp.AccountId = acc.id;
+        opp.Amount = 1200;
+        opp.scaleMatters__Business_Unit__c = 'Unassigned';
+        opp.scaleMatters__S2_Date__c = Null;
+
+        insert opp;
+        oppStagesMap.put(opp.Id, opp.StageName);
+
+        
+        Opportunity oppUpdate = new Opportunity(Id= opp.Id);
+        oppUpdate.Name = 'Test';
+        oppUpdate.StageName = 'Stage 2';
+        oppUpdate.scaleMatters__S2_Date__c = system.today();
+        oppUpdate.scaleMatters__S3_Date__c = system.today();
+        oppUpdate.scaleMatters__S4_Date__c = system.today();
+        oppUpdate.scaleMatters__S5_Date__c = system.today();
+        oppUpdate.scaleMatters__S6_Date__c = system.today();
+        oppUpdate.scaleMatters__S7_Date__c = system.today();
+        oppUpdate.scaleMatters__S8_Date__c = system.today();
+        oppUpdate.scaleMatters__S9_Date__c = system.today();
+        oppUpdate.scaleMatters__S10_Date__c = system.today();
+        oppUpdate.scaleMatters__Last_Stage_Before_Loss__c = 3;
+        oppUpdate.scaleMatters__IsGhosted__c = false;
+        oppUpdate.scaleMatters__IsCertifiedDeal__c = false;
+        update oppUpdate;
+        oppListNew.add(oppUpdate.Id);        
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap, oppListNew);
+        
+        //testing if stages are 3 and 4
+        
+        
+        
+        Opportunity opp2 = new Opportunity();
+        opp2.Name = 'Test Opportunity';
+        opp2.StageName = 'Closed Ghosted';
+        opp2.CloseDate = system.today();
+        opp2.Amount = 1200;
+        opp2.AccountId = acc.id;
+        opp2.scaleMatters__Business_Unit__c = 'Unassigned';
+        insert opp2;
+        oppStagesMap2.put(opp2.Id, opp2.StageName);
+        
+        Opportunity oppUpdate2 = new Opportunity(Id= opp2.Id);
+        oppUpdate2.Name = 'Test';
+        oppUpdate2.StageName = 'Stage 3';
+        oppUpdate2.scaleMatters__Opportunity_Discard__c = true;
+        oppUpdate2.scaleMatters__S2_Date__c = system.today();
+        oppUpdate2.scaleMatters__S3_Date__c = system.today();
+        oppUpdate2.scaleMatters__S4_Date__c = system.today();
+        oppUpdate2.scaleMatters__S5_Date__c = system.today();
+        oppUpdate2.scaleMatters__S6_Date__c = system.today();
+        oppUpdate2.scaleMatters__S7_Date__c = system.today();
+        oppUpdate2.scaleMatters__S8_Date__c = system.today();
+        oppUpdate2.scaleMatters__S9_Date__c = system.today();
+        oppUpdate2.scaleMatters__S10_Date__c = system.today();
+        oppUpdate2.scaleMatters__Last_Stage_Before_Loss__c = 3;
+        oppUpdate2.scaleMatters__IsGhosted__c = false;
+        oppUpdate2.scaleMatters__IsCertifiedDeal__c = false;
+        update oppUpdate2;
+        oppListNew2.add(oppUpdate2.Id);        
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap2, oppListNew2);
+        
+        //testing if stages are 5 and 6
+        
+        Opportunity opp3 = new Opportunity();
+        opp3.Name = 'Test Opportunity';
+        opp3.StageName = 'Closed Ghosted';
+        opp3.CloseDate = system.today();
+        opp3.AccountId = acc.id;
+        opp3.Amount = 1200;
+        opp3.scaleMatters__Business_Unit__c = 'Unassigned';
+        insert opp3;
+        oppStagesMap3.put(opp3.Id, opp3.StageName);
+        
+        Opportunity oppUpdate3 = new Opportunity(Id= opp3.Id);
+        oppUpdate3.Name = 'Test';
+        oppUpdate3.StageName = 'Stage 4';
+        oppUpdate3.scaleMatters__Opportunity_Discard__c = true;
+        update oppUpdate3;
+        oppListNew3.add(oppUpdate3.Id);        
+        ScaleMattersOpportunityBatch.updateOppStage(oppStagesMap3, oppListNew3);
+         
+         
+        
+        
+         
+    }
+    
+    
     
     
     

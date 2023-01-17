@@ -136,7 +136,7 @@ public class scaleMatterSyncCntrl {
         return selectoptions;
     }
     
-    /**
+  /**
     //all methods which are used to set Field 1 Mapping 
     public String smMapping1;
     public String getsmMapping1() {
@@ -665,6 +665,7 @@ public class scaleMatterSyncCntrl {
         
         }
 //all methods which are used to set Field 15 Mapping 
+
     public String smMapping15;
     public String getsmMapping15() {
         return smMapping15;
@@ -1144,8 +1145,9 @@ public class scaleMatterSyncCntrl {
     }
     
 
-    **/
-
+   
+**/
+    
     
   
     

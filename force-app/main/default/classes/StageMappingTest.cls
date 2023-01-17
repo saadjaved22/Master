@@ -7,8 +7,8 @@ public class StageMappingTest {
         
         List<String> vals = new List<String>();
         
-        StageMappingCNTRL smC = new StageMappingCNTRL();
-        vals = StageMappingCNTRL.getStageValues();
+        scaleMattersStageMappingCNTRL smC = new scaleMattersStageMappingCNTRL();
+        vals = scaleMattersStageMappingCNTRL.getStageValues();
         smC.stage1Mapping();
         smC.stage2Mapping();
         smC.stage3Mapping();

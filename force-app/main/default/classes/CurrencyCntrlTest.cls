@@ -38,7 +38,7 @@ public class CurrencyCntrlTest {
         List<SelectOption> items = new List<SelectOption>();
 
         
-        CurrencyMappingCNTRL cm = new CurrencyMappingCNTRL();
+        scaleMattersCurrencyMappingCNTRL cm = new scaleMattersCurrencyMappingCNTRL();
         cm.currencyField1Mapping();
         cm.currencyField2Mapping();
         cm.currencyField3Mapping();
@@ -47,7 +47,7 @@ public class CurrencyCntrlTest {
         cm.currencyField6Mapping();
         cm.currencyField7Mapping();
         cm.currencyField8Mapping();
-        currencies = CurrencyMappingCNTRL.getCurrencyFields();
+        currencies = scaleMattersCurrencyMappingCNTRL.getCurrencyFields();
         items = cm.getItems();
         cm.setsmMapping1(smMapping1);
         cm.setsmMapping2(smMapping2);

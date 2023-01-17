@@ -17,7 +17,7 @@
             <apex:commandButton action="{!updateSyncMapping}" value="Create Mapping" />
         </apex:pageBlockSectionItem>
     </apex:pageblockSection>
- <!--
+<!--
     <apex:pageblockSection title="Please Map Fields with any Conditions to Sync Opportunities with scaleMatters" >
                 <apex:panelGrid columns="5" id="theGrid" style="width: 1800px; height:100%;">
                     <apex:outputText value="Select Mapping 1 conditions"></apex:outputText>
@@ -329,7 +329,7 @@
 
     
         </apex:pageblockSection>
-     -->
+   --> 
         
     </apex:pageBlock>
     </apex:form>
